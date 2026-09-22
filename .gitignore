@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+*.local
+
+# data: patient-level deidentified PCX tables (not included in repo)
+# data/ is ignored (directory is kept for fresh clone)
+/data/*
+!/data/.gitkeep
+
+pcx_*.csv
+*_deid.csv
+*_deid.xlsx
